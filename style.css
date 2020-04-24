@@ -39,8 +39,7 @@ body {
   }
 
   .bold {
-      color: black;
-      font-weight: bold;
+      font-weight: 900;
   }
 
   .font-family {
@@ -49,7 +48,7 @@ body {
 
   .multiple {
       color: orange;
-      font-weight: bold;
+      font-weight: 900;
       font-size: large;
   }
 
