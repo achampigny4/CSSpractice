@@ -5,19 +5,13 @@ body {
   h1 {
     color: black;
     text-decoration: bold;
-    align-content: center;
+    text-align: center;
   }
 
   h2  {
     color: black;
     text-decoration: bold;
-    align-content: left;
-  }
-
-  .styledFont {
-      font-size: 12pt;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      color: black;
+    text-align: left;
   }
 
     .red {
@@ -56,4 +50,17 @@ body {
       color: orange;
       text-emphasis: bold;
       font-size: large;
+  }
+
+  .styledFont {
+    font-size: 12pt;
+    font-family: sans-serif;
+    color: green;
+}
+
+#borderimg { 
+    border: 10px solid;
+    border-color: orange;
+    padding: 15px;
+    border-image: url(https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg) 30 round;
   }
