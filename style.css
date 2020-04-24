@@ -35,7 +35,7 @@ body {
   }
 
   .centered {
-      text-align: centered;
+      text-align: center;
   }
 
   .bold {
@@ -58,10 +58,11 @@ body {
     color: green;
 }
 
-#borderimg { 
+.borderimg { 
     border: 10px solid;
-    border-image-source: url(https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg) 30 round;
+    border-image-source: url (https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg) 30 round;
     border-image-repeat: round;
     border-image-width: 10px;
     border-color: orange;
 }
+
