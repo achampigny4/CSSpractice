@@ -39,21 +39,21 @@ body {
   }
 
   .bold {
-      text-emphasis: bold;
+      font-weight: bold;
   }
 
   .font-family {
-      font-family: cursive;
+      font-family: 'Courier New', Courier, monospace;
   }
 
   .multiple {
       color: orange;
-      text-emphasis: bold;
+      font-weight: bold;
       font-size: large;
   }
 
   .styledFont {
-    font-size: 12pt;
+    font-size: 10pt;
     font-family: sans-serif;
     color: green;
 }
