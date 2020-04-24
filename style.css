@@ -60,7 +60,8 @@ body {
 
 #borderimg { 
     border: 10px solid;
+    border-image-source: url(https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg) 30 round;
+    border-image-repeat: round;
+    border-image-width: 10px;
     border-color: orange;
-    padding: 15px;
-    border-image: url(https://www.viewlike.us/wp-content/uploads/2013/04/css3-markup.jpg) 30 round;
-  }
+}
